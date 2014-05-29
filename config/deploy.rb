@@ -12,8 +12,7 @@ set :deploy_to, '/u/apps/intercity_sample_app'
 
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
-  forward_agent: true,
-  port: 2222
+  forward_agent: true
 }
 
 # Default value for :pty is false
